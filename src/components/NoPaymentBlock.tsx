@@ -1,7 +1,21 @@
 const NoPaymentBlock = () => (
-    <div className="bg-green-50 p-4 rounded text-green-700 text-sm">
-      You’ve paid your balance.
+    <div className="flex flex-col justify-center items-center text-center w-full h-full space-y-2">
+        <div>
+            <h2 className="text-sm font-semibold text-black">No Payment Due</h2>
+            <p className="text-sm text-gray-500">You've paid your September balance.</p>
+        </div>
+        <div className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-full">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 text-black"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+            >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            </svg>
+        </div>
     </div>
-  );
-  
-  export default NoPaymentBlock;
+);
+
+export default NoPaymentBlock;

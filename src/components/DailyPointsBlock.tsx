@@ -8,8 +8,11 @@ const calculatePoints = () => {
   const DailyPointsBlock = () => {
     const points = calculatePoints();
     return (
-      <div className="bg-yellow-100 p-4 rounded text-yellow-800 text-sm">
-        Daily Points: <strong>{points > 999 ? `${Math.round(points / 1000)}K` : points}</strong>
+      <div className="flex flex-col justify-center h-full">
+        <h2 className="text-sm font-bold text-gray-800">Daily Points</h2>
+        <p className="text-2xl font-medium text-gray-500">
+          {points > 999 ? `${Math.round(points / 1000)}K` : points}
+        </p>
       </div>
     );
   };
