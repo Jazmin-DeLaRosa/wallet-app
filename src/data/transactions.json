@@ -1,34 +1,134 @@
 {
     "transactions": [
-      {
-        "id": "1",
-        "type": "Credit",
-        "amount": 245.75,
-        "name": "IKEA",
-        "description": "Furniture",
-        "date": "2025-04-21T15:30:00Z",
-        "authorizedUser": "John D.",
-        "pending": false
-      },
-      {
-        "id": "2",
-        "type": "Payment",
-        "amount": 300,
-        "name": "Bank Transfer",
-        "description": "Top-up",
-        "date": "2025-04-20T12:00:00Z",
-        "authorizedUser": "",
-        "pending": false
-      },
-      {
-        "id": "3",
-        "type": "Credit",
-        "amount": 100,
-        "name": "Apple",
-        "description": "Electronics",
-        "date": "2025-04-18T09:45:00Z",
-        "authorizedUser": "",
-        "pending": true
-      }
+        {
+            "id": "1",
+            "type": "Credit",
+            "amount": 245.75,
+            "name": "IKEA",
+            "description": "Furniture",
+            "date": "2025-04-21T15:30:00Z",
+            "authorizedUser": "John D.",
+            "pending": false
+        },
+        {
+            "id": "2",
+            "type": "Payment",
+            "amount": 300,
+            "name": "Bank Transfer",
+            "description": "Top-up",
+            "date": "2025-04-20T12:00:00Z",
+            "authorizedUser": "",
+            "pending": false
+        },
+        {
+            "id": "3",
+            "type": "Credit",
+            "amount": 100,
+            "name": "Apple",
+            "description": "Electronics",
+            "date": "2025-04-18T09:45:00Z",
+            "authorizedUser": "",
+            "pending": true
+        },
+        {
+            "id": "3",
+            "type": "Credit",
+            "amount": 125.90,
+            "name": "Amazon",
+            "description": "Electronics",
+            "date": "2025-04-18T14:45:00Z",
+            "authorizedUser": "Maria H.",
+            "pending": false
+        },
+        {
+            "id": "4",
+            "type": "Payment",
+            "amount": 80.00,
+            "name": "Netflix",
+            "description": "Subscription",
+            "date": "2025-04-17T08:00:00Z",
+            "authorizedUser": "",
+            "pending": false
+        },
+        {
+            "id": "5",
+            "type": "Credit",
+            "amount": 59.99,
+            "name": "Spotify",
+            "description": "Music Plan",
+            "date": "2025-04-16T21:15:00Z",
+            "authorizedUser": "Jazmín R.",
+            "pending": true
+        },
+        {
+            "id": "6",
+            "type": "Payment",
+            "amount": 220.75,
+            "name": "Apple",
+            "description": "iCloud Upgrade",
+            "date": "2025-04-15T10:30:00Z",
+            "authorizedUser": "",
+            "pending": false
+        },
+        {
+            "id": "7",
+            "type": "Credit",
+            "amount": 47.00,
+            "name": "Uber",
+            "description": "Ride to Airport",
+            "date": "2025-04-14T23:05:00Z",
+            "authorizedUser": "Luis C.",
+            "pending": false
+        },
+        {
+            "id": "8",
+            "type": "Credit",
+            "amount": 315.40,
+            "name": "Costco",
+            "description": "Groceries",
+            "date": "2025-04-13T17:30:00Z",
+            "authorizedUser": "",
+            "pending": true
+        },
+        {
+            "id": "9",
+            "type": "Payment",
+            "amount": 180.00,
+            "name": "PayPal",
+            "description": "Freelance Payment",
+            "date": "2025-04-12T11:00:00Z",
+            "authorizedUser": "",
+            "pending": false
+        },
+        {
+            "id": "10",
+            "type": "Credit",
+            "amount": 92.30,
+            "name": "Zara",
+            "description": "Clothing",
+            "date": "2025-04-11T16:10:00Z",
+            "authorizedUser": "Sofía M.",
+            "pending": false
+        },
+        {
+            "id": "11",
+            "type": "Payment",
+            "amount": 50.00,
+            "name": "Starbucks",
+            "description": "Coffee and Snacks",
+            "date": "2025-04-10T09:15:00Z",
+            "authorizedUser": "",
+            "pending": true
+        },
+        {
+            "id": "12",
+            "type": "Credit",
+            "amount": 200.00,
+            "name": "Mercado Libre",
+            "description": "Home Supplies",
+            "date": "2025-04-09T19:20:00Z",
+            "authorizedUser": "Carlos B.",
+            "pending": false
+        }
     ]
-  }
+}
