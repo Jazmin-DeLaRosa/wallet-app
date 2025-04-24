@@ -32,3 +32,9 @@ npm install
 ```bash
 npm run dev
 ```
+
+### 🏠 Home Screen
+![Home Screen](screenshots/Home.png)
+
+### 📄 Transaction Details
+![Transaction Details](screenshots/Details.png)
