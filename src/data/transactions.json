@@ -31,7 +31,7 @@
             "pending": true
         },
         {
-            "id": "3",
+            "id": "4",
             "type": "Credit",
             "amount": 125.90,
             "name": "Amazon",
@@ -41,7 +41,7 @@
             "pending": false
         },
         {
-            "id": "4",
+            "id": "5",
             "type": "Payment",
             "amount": 80.00,
             "name": "Netflix",
@@ -51,7 +51,7 @@
             "pending": false
         },
         {
-            "id": "5",
+            "id": "6",
             "type": "Credit",
             "amount": 59.99,
             "name": "Spotify",
@@ -61,7 +61,7 @@
             "pending": true
         },
         {
-            "id": "6",
+            "id": "7",
             "type": "Payment",
             "amount": 220.75,
             "name": "Apple",
@@ -71,7 +71,7 @@
             "pending": false
         },
         {
-            "id": "7",
+            "id": "8",
             "type": "Credit",
             "amount": 47.00,
             "name": "Uber",
@@ -81,7 +81,7 @@
             "pending": false
         },
         {
-            "id": "8",
+            "id": "9",
             "type": "Credit",
             "amount": 315.40,
             "name": "Costco",
@@ -91,7 +91,7 @@
             "pending": true
         },
         {
-            "id": "9",
+            "id": "10",
             "type": "Payment",
             "amount": 180.00,
             "name": "PayPal",
@@ -101,7 +101,7 @@
             "pending": false
         },
         {
-            "id": "10",
+            "id": "11",
             "type": "Credit",
             "amount": 92.30,
             "name": "Zara",
@@ -111,7 +111,7 @@
             "pending": false
         },
         {
-            "id": "11",
+            "id": "12",
             "type": "Payment",
             "amount": 50.00,
             "name": "Starbucks",
@@ -121,13 +121,83 @@
             "pending": true
         },
         {
-            "id": "12",
+            "id": "13",
             "type": "Credit",
             "amount": 200.00,
             "name": "Mercado Libre",
             "description": "Home Supplies",
             "date": "2025-04-09T19:20:00Z",
             "authorizedUser": "Carlos B.",
+            "pending": false
+        },
+        {
+            "id": "14",
+            "type": "Payment",
+            "amount": 300,
+            "name": "Bank Transfer",
+            "description": "Top-up",
+            "date": "2025-04-20T12:00:00Z",
+            "authorizedUser": "",
+            "pending": false
+        },
+        {
+            "id": "15",
+            "type": "Credit",
+            "amount": 100,
+            "name": "Apple",
+            "description": "Electronics",
+            "date": "2025-04-18T09:45:00Z",
+            "authorizedUser": "",
+            "pending": true
+        },
+        {
+            "id": "16",
+            "type": "Credit",
+            "amount": 125.90,
+            "name": "Amazon",
+            "description": "Electronics",
+            "date": "2025-04-18T14:45:00Z",
+            "authorizedUser": "Maria H.",
+            "pending": false
+        },
+        {
+            "id": "17",
+            "type": "Payment",
+            "amount": 80.00,
+            "name": "Netflix",
+            "description": "Subscription",
+            "date": "2025-04-17T08:00:00Z",
+            "authorizedUser": "",
+            "pending": false
+        },
+        {
+            "id": "18",
+            "type": "Credit",
+            "amount": 59.99,
+            "name": "Spotify",
+            "description": "Music Plan",
+            "date": "2025-04-16T21:15:00Z",
+            "authorizedUser": "Jazmín R.",
+            "pending": true
+        },
+        {
+            "id": "19",
+            "type": "Payment",
+            "amount": 220.75,
+            "name": "Apple",
+            "description": "iCloud Upgrade",
+            "date": "2025-04-15T10:30:00Z",
+            "authorizedUser": "",
+            "pending": false
+        },
+        {
+            "id": "20",
+            "type": "Credit",
+            "amount": 47.00,
+            "name": "Uber",
+            "description": "Ride to Airport",
+            "date": "2025-04-14T23:05:00Z",
+            "authorizedUser": "Luis C.",
             "pending": false
         }
     ]
