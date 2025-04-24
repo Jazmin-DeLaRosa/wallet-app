@@ -1,6 +1,15 @@
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBuildingColumns, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import {
+    faBuildingColumns,
+    faChevronRight,
+    faShoppingCart,
+    faCoffee,
+    faCar,
+    faCreditCard,
+    faBolt,
+    faMobileAlt
+} from "@fortawesome/free-solid-svg-icons";
 
 const TransactionItem = ({ tx }: { tx: any }) => {
     const navigate = useNavigate();
@@ -13,7 +22,18 @@ const TransactionItem = ({ tx }: { tx: any }) => {
         : date.toLocaleDateString();
 
     const amount = tx.type === "Payment" ? `+$${tx.amount}` : `$${tx.amount}`;
-    const showPending = tx.pending ? "Pending: " : "";
+
+    const iconMap: Record<string, any> = {
+        "Amazon": faShoppingCart,
+        "Starbucks": faCoffee,
+        "Uber": faCar,
+        "Costco": faShoppingCart,
+        "Apple": faMobileAlt,
+        "Netflix": faBolt,
+        "Spotify": faBolt,
+        "Zara": faCreditCard,
+        "PayPal": faCreditCard
+    };
 
     return (
         <div
@@ -22,16 +42,18 @@ const TransactionItem = ({ tx }: { tx: any }) => {
         >
             <div className="flex gap-3 items-start">
                 <div className="bg-gray-800 text-white p-2 rounded-full flex items-center justify-center h-10 w-10">
-                    <FontAwesomeIcon icon={faBuildingColumns} />
+                    <FontAwesomeIcon icon={iconMap[tx.name] || faBuildingColumns} />
                 </div>
                 <div>
                     <p className="font-semibold">
-                        {tx.pending && "Pending: "}
+                        {tx.pending}
                         {tx.name}
                     </p>
                     <p className="text-xs text-gray-600">
-                        {tx.description}
-                        {tx.authorizedUser ? ` • ${tx.authorizedUser}` : ""}
+                        {tx.pending
+                            ? "Pending"
+                            : `${tx.description}${tx.authorizedUser ? ` • ${tx.authorizedUser}` : ""}`
+                        }
                     </p>
                     <p className="text-xs text-gray-400">
                         {isRecent
