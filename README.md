@@ -22,3 +22,13 @@ This is a technical test project built with **React.js**, **TypeScript**, and **
 ```bash
 git clone https://github.com/your-username/wallet-app.git
 cd wallet-app
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+```bash
+npm run dev
+```
